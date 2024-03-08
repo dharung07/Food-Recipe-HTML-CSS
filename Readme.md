@@ -4,9 +4,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Screenshot
 
-![Screenshot](/Food-Recipe-HTML-CSS/assets/screenshots/screenshot1.png)
-![Screenshot](/Food-Recipe-HTML-CSS/assets/screenshots/screenshot2.png)
-![Screenshot](/Food-Recipe-HTML-CSS/assets/screenshots/screenshot3.png)
+![Screenshot](/Food-Recipe-HTML-CSS/screenshots/screenshot1.png)
+![Screenshot](/Food-Recipe-HTML-CSS/screenshots/screenshot2.png)
+![Screenshot](/Food-Recipe-HTML-CSS/screenshots/screenshot3.png)
 
 ## Link
 
