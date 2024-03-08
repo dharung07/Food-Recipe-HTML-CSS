@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Rosewhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Wengebrown: hsl(30, 10%, 34%);
+    --Darkcharcoal: hsl(24, 5%, 18%);
+    --Subtitles: #80442E;
+    --Container-heading-color: #551A33;
+}
+
+main {
+    width: 100vw;
+    padding: 40px 0px;
+    background-color: var(--Eggshell);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    color: var(--Wengebrown);
+}
+
+#new-recipe {
+    width: 740px;
+    border-radius: 10px;
+    background-color: var(--White);
+    padding: 30px 40px;
+}
+
+#recipe-details {
+    padding: 20px 0px;
+}
+
+#new-recipe-containers {
+    margin: 15px 0px;
+}
+
+#new-recipe-containers p {
+    margin-top: 10px;
+}
+
+#recipe-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#recipe-title {
+    font-size: 34px;
+    font-family: "Young Serif";
+    color: var(--Darkcharcoal);
+}
+
+#new-recipe-subtitles {
+    font-size: 22px;
+    font-family: "Young Serif";
+    font-weight: 300;
+    color: var(--Subtitles);
+}
+
+#recipe-description {
+    font-size: 16px;
+    color: var(--Wengebrown);
+    padding-top: 15px;
+}
+
+#preparation-details {
+    background-color: var(--Rosewhite);
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#preparation-details h4 {
+    color: var(--Container-heading-color);
+}
+
+#new-recipe ul,
+#new-recipe ol {
+    padding: 10px 20px;
+}
+
+#new-recipe ul li,
+#new-recipe ol li {
+
+    padding: 10px 0px 0px 15px;
+}
+
+#new-recipe ul li span,
+#new-recipe ol li span {
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--Wengebrown);
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    color: var(--Subtitles);
+}
+
+@media (max-width: 375px) {
+    main {
+        padding: 0px;
+    }
+
+    section {
+        padding: 0px 20px;
+    }
+
+    #recipe-img {
+        border-radius: 0px;
+    }
+
+    #new-recipe {
+        padding: 0px;
+    }
+
+    #recipe-details {
+        padding: 20px 20px;
+    }
+
+    #new-recipe ul li {
+        padding: 10px 0px 0px 5px;
+    }
+
+    #preparation-details {
+        padding: 15px;
+    }
+}
