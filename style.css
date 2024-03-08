@@ -116,7 +116,7 @@ th {
     color: var(--Subtitles);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 820px) {
     main {
         padding: 20px 20px;
     }
